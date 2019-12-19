@@ -1,0 +1,17 @@
+.heading{position:absolute;z-index:2;color:#fff;margin-top:-500px;font-size:50px;letter-spacing:40px;margin-left:37%}
+.two{background-image:url(images/wraith/W17.02.BG.jpg.rr.1366.MED.jpg);height:500px;margin-top:-5px}
+#five{margin-top:-5px}
+.three{position:absolute;z-index:2;margin-top:-200px;margin-left:27%}
+ #carousel {
+        width:100%;
+        height:600px;
+        position:relative;
+        clear:both;
+        overflow:hidden;
+        background:#FFF;
+      }
+      #carousel img {
+        visibility:hidden; /* hide images until carousel can handle them */
+        cursor:pointer;height:700px;
+		width:85%; /* otherwise it's not as obvious items can be clicked */
+      }

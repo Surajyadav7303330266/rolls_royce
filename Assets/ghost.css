@@ -1,0 +1,7 @@
+body{padding:0px;margin:0px;}
+.heading{position:absolute;z-index:2;color:#000;margin-top:-1000px;font-size:50px;letter-spacing:40px;margin-left:37%}
+.two{background-image:url(images/ghost/04_GHOST-OVERVIEW-HERO-GRADIENT-M.jpg.rr.1366.MED.jpg);height:400px;margin-top:-5px}
+#five{margin-top:-5px}
+.four{background-image:url(images/ghost/06-GHOST-OVERVIEW-SECOND-GRAD.jpg.rr.1366.MED.jpg);margin-top:-5px}
+.five{background-image:url(images/ghost/08-GHOST-OVERVIEW-THIRD-GRAD.jpg.rr.1366.MED.jpg);margin-top:-5px;height:450px}
+.six{background-image:url(images/ghost/15-GHOST-OVERVIEW-FIFTH-IMAGE-END-M.jpg.rr.1366.MED.jpg);margin-top:-5px;height:800px}

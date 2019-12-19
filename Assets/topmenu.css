@@ -1,0 +1,42 @@
+.top_menu{text-decoration:none;color:white;font-size:15px;margin-left:35px;font-weight:bold;margin-top:-5px;cursor:pointer}
+.top_models{text-decoration:none;color:white;font-size:15px;margin-left:35px;font-weight:bold;margin-top:-5px;cursor:pointer}
+.top_dealers{text-decoration:none;color:white;font-size:15px;margin-right:35px;font-weight:bold;float:right;margin-top:-5px;cursor:pointer}
+#Toptable{top:10px;left:0%;position:absolute;width:100%;z-index:20;}
+#Toptable tr{background-color:rgba(128,128,128,0.3);}
+#logo:hover{cursor:pointer}
+#menu{
+  position: relative;
+  opacity:0;
+  margin-left:-550px;
+
+}
+#menu:target{
+  opacity: 1;
+  transform: translateX(750px);
+  transition: all 0.7s ease-in-out 0.3s;
+}
+#model{
+  position: absolute;
+  opacity:0;
+  margin-left:-550px;
+  z-index:50;margin-top:-630px;
+
+}
+#model:target{
+  opacity: 1;
+  transform: translateX(750px);
+  transition: all 0.7s ease-in-out 0.3s;
+}
+#dealer{
+  position: absolute;
+  opacity:0;
+  margin-left:1320px;
+  z-index:50;
+  margin-top:-630px;
+  float:right;
+}
+#dealer:target{
+  opacity: 1;
+  transform: translateX(-420px);
+  transition: all 0.7s ease-in-out 0.3s;
+}

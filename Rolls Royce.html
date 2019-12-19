@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rolls-Royce Motor Car Home</title>
+    <link rel="stylesheet" href="Assets/fontawesome-free-5.8.1-web/css/all.css" type="text/css"/>
+    <link rel="stylesheet" href="Assets/Slide.css" type="text/css" />
+	<link rel="stylesheet" href="Assets/topmenu.css" type="text/css">
+	<link rel="icon" href="Assets/images/icon.png" type="image/png" />
+	<style>
+	::-webkit-input-placeholder{color:#00aaee;}
+	::-moz-input-placeholder{color:#00aaee;}
+	::-ms-input-placeholder{color:#00aaee;}
+	::-o-input-placeholder{color:#00aaee;}
+	.scroll::-webkit-scrollbar{display: none;} 
+	</style>
+  </head>
+  <body>
+			<table width="100%" id="Toptable">
+					<tr>
+						<td width="33%">
+						<a href="#menu" class="top_menu">MENU</a>
+						<a href="#model" class="top_models">MODELS</a></td>
+						<td width="33%">
+						<a href="Assets/Rolls Royce.html"><img id="logo" src="Assets/images/logo.png" height="75px" style="margin-left:45%;border-radius:2px"></a>
+						</td>
+						<td width="33%">
+						<a href="#dealer" class="top_dealers">DEALERS</a></td>
+					</tr>
+			</table>
+    <div class="slider">
+      <div class="slide current">
+			<video loop muted autoplay id="video1" class="video1">
+			<source src="Assets/videos/Rolls-Royce Motor Cars - Champagne Chest.mp4" type="video/mp4">
+			</video>
+        <div class="content">
+          <center><p style="color:#fff;letter-spacing:2px;font-family:sans-serif">ACT ON INSPIRATION</p><br>
+				<button id="btn1" style="letter-spacing:2px;background-color:#00AAEE;height:50px;width:300px;border-radius:50px;border:0px;color:#fff;margin-bottom:20px;opacity:1;">DISCOVER DAWN</button><br>
+				</center>
+        </div>
+      </div>
+      <div class="slide">
+	  <video loop autoplay muted id="video2" class="video2">
+			<source src="Assets/videos/Rolls Royce Rally Car.mp4" type="video/mp4">
+			</video>
+        <div class="content">
+          <center><p style="color:#fff;letter-spacing:2px;font-family:sans-serif">HOUSE OF ROLLS-ROYCE</p><br>
+				<button id="btn1" style="letter-spacing:2px;background-color:#00AAEE;height:50px;width:300px;border-radius:50px;border:0px;color:#fff;margin-bottom:20px;opacity:1;">WATCH CHAPTERS</button><br>
+				</center>
+        </div>
+      </div>
+      <div class="slide">
+	  <video loop autoplay muted id="video3" class="video3">
+			<source src="Assets/videos/Wraith Eagle VIII.mp4" type="video/mp4">
+			</video>
+        <div class="content">
+          <center><p style="color:#fff;letter-spacing:2px;font-family:sans-serif">A TOASTE TO EXCELLANCE</p><br>
+				<button id="btn1" style="letter-spacing:2px;background-color:#00AAEE;height:50px;width:300px;border-radius:50px;border:0px;color:#fff;margin-bottom:20px;opacity:1;">CHEMPAIGN CHEST</button><br>
+				</center>
+        </div>
+      </div>
+	  <div id="menu">
+          <table width="300px" cellpadding="0" cellspacing="0">
+			<tr width="100%" height="100px" style="background-color:;"><td></td></tr>
+			<tr width="100%" height="60px">
+				<td style="background-color:#424b5d;">
+					<i class="fa fa-search" style="font-size:20px;color:white;margin-left:30px"></i>
+					<input type="search" style="border:0px;width:220px;height:50px;font-size:20px;background-color:transparent;color:white;" placeholder="SEARCH"><br>
+				</td>
+			<tr width="100%" height="60px">
+				<td style="width:100%;overflow:hidden;height:470px">
+					<iframe style="width:108%;height:470px;" src="Assets/menu.html"></iframe>
+				</td>
+			</tr>
+			</table>
+        </div>
+		<div id="model">
+          <table width="300px" cellpadding="0" cellspacing="0">
+			<tr width="100%" height="100px"><td></td></tr>
+			<tr width="100%" height="60px">
+				<td style="background-color:#424b5d;">
+					<center><font style="color:white;">CHOOSE YOUR ROLLS_ROYCE</font></center>
+				</td>
+			</tr>
+			<tr width="300px" height="470px">
+				<td style="width:100%;overflow:hidden;height:470px">
+					<iframe style="width:108%;height:470px;" src="Assets/models.html"></iframe>
+				</td>
+			</tr>			
+			</table>
+        </div>
+		<div id="dealer">
+          <table width="300px" cellpadding="0" cellspacing="0">
+			<tr width="100%" height="100px"><td></td></tr>
+			<tr width="100%" height="60px">
+				<td style="background-color:#424b5d;">
+					<center><font style="color:white;">FIND YOUR DEALER</font></center>
+				</td>
+			</tr>
+			<tr width="300px" height="470px">
+				<td style="width:100%;overflow:hidden;height:470px">
+					<iframe style="width:108%;height:470px;" src="Assets/dealers.html"></iframe>
+				</td>
+			</tr>
+			</table>
+        </div>
+    </div>
+    <div class="buttons">
+		<i id="prev" class="fa fa-chevron-left"></i>
+		<i id="next" class="fa fa-chevron-right"></i>
+    </div>
+    <script src="Assets/Slide.js"></script>
+  </body>
+</html>
